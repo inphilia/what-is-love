@@ -1,0 +1,11 @@
+app:
+  name: what_is_love
+  version: 0.0.1
+
+snowflake:
+  database: undertale
+  schema: toriel
+
+path:
+  data: data
+  sql: sql
