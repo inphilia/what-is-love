@@ -2,3 +2,4 @@
 *.rdata
 *.csv
 notes.txt
+pip_requirements.txt

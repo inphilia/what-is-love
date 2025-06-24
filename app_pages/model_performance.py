@@ -5,7 +5,6 @@ Page for comparing saved models by performance metrics and feature importance.
 # %% Import Libraries
 
 import streamlit as st
-from st_aggrid import AgGrid
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
