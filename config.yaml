@@ -9,3 +9,28 @@ snowflake:
 path:
   data: data
   sql: sql
+
+data_processing:
+  drop_threshold: 25
+  data_type_options: ["Numeric", "Binary", "Categorical", "Drop Feature"]
+  missing_handling_options: ["Impute", "Drop"]
+
+modeling:
+  model_type_options:
+    Linear Regression:
+      name: Linear Regression
+      scoring: r2
+      scoring_name: R2
+    LightGBM:
+      name: LightGBM
+      scoring: neg_mean_squared_error
+      scoring_name: Neg-MSE
+  performance_metrics:
+    R2:
+      name: R2
+      scoring: r2
+      multiplier: 1
+    MSE:
+      name: MSE
+      scoring: neg_mean_squared_error
+      multiplier: -1

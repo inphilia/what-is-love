@@ -1,3 +1,7 @@
+"""
+This is the home page of the Speed Dating Data Analysis app.
+"""
+
 import streamlit as st
 
 st.header("Speed Dating Data Analysis")
@@ -12,7 +16,7 @@ So while it may look simple, I'm hoping to scale this across multiple projects i
 To use this app, navigate through the pages in the order presented in the sidebar.  
 -- Exploratory Data Analysis: Understand the data and its features.  
 -- Data Preprocessing: Set up how the data is processed for modeling.  
--- Modeling: Train and save different models to predict a response feature.  
+-- Modeling (**Required**): Train and save different models to predict a response feature.  
 -- Model Comparison: Compare the performance and feature importance of saved models.  
 
 To get more background on the data, check out the [original dataset and description](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment/data?select=Speed+Dating+Data.csv).
