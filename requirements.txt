@@ -4,8 +4,6 @@ numpy==2.3.1
 pages==0.3
 pandas==2.3.0
 plotly==6.1.2
-PyYAML==6.0.1
-PyYAML==6.0.2
 PyYAML==6.0.2
 scikit_learn==1.7.0
 seaborn==0.13.2
