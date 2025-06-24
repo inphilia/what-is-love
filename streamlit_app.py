@@ -27,17 +27,17 @@ initialize_default_modeling()
 
 page_folder = "app_pages"
 pages = [
-    st.Page(page=os.path.join(page_folder, "home.py"), title="Home"),
+    st.Page(page=os.path.join(page_folder, "home.py"), title="Home", icon="🏠"),
     st.Page(
-        page=os.path.join(page_folder, "eda.py"), title="Exploratory Data Analysis"
+        page=os.path.join(page_folder, "eda.py"), title="Exploratory Data Analysis", icon="📊"
     ),
     st.Page(
-        page=os.path.join(page_folder, "preprocessing.py"), title="Data Preprocessing"
+        page=os.path.join(page_folder, "preprocessing.py"), title="Data Preprocessing", icon="🔧"
     ),
-    st.Page(page=os.path.join(page_folder, "modeling.py"), title="Modeling"),
+    st.Page(page=os.path.join(page_folder, "modeling.py"), title="Modeling", icon="🤖"),
     st.Page(
         page=os.path.join(page_folder, "model_performance.py"),
-        title="Model Performance",
+        title="Model Performance", icon="📈"
     ),
     # st.Page(page=os.path.join(page_folder, "test.py"), title="Test Page"),
 ]

@@ -7,6 +7,16 @@ import streamlit as st
 st.header("Speed Dating Data Analysis")
 st.write("Dr. Alan Y Nam")
 
+st.image("speed_dating_2.png", caption="Credit: https://www.mixerseater.com/cms/how-to-organize-speed-dating-event")
+
+st.subheader("Streamlit Cloud Deployment")
+cloud_deployment_text = """
+Due to the limitations of Streamlit Cloud, the LightGBM model has been disabled. I would 
+also advise against changing the response feature or changing the data preprocessing in the Data 
+Preprocessing page.
+"""
+st.markdown(cloud_deployment_text)
+
 st.subheader("Introduction")
 introduction_text = """
 Welcome to my Speed Dating Data Analysis app! This is a fun side project to learn Streamlit and visualization libraries.
@@ -42,3 +52,5 @@ For real, I'm a data scientist with a decade of experience across multiple domai
 You can find me on [LinkedIn](https://www.linkedin.com/in/alan-nam-639a03134/).
 """
 st.markdown(about_me_text)
+
+st.image("profile.jpg", caption="Dr. Alan Y Nam", width=200)
