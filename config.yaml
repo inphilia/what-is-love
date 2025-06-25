@@ -21,10 +21,6 @@ modeling:
       name: Linear Regression
       scoring: r2
       scoring_name: R2
-    # LightGBM:
-    #   name: LightGBM
-    #   scoring: neg_mean_squared_error
-    #   scoring_name: Neg-MSE
   performance_metrics:
     R2:
       name: R2

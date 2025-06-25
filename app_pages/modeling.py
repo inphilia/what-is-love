@@ -424,8 +424,8 @@ def get_model_train_defaults() -> tuple[dict, dict, dict]:
     optimized_models = {mo: {} for mo in model_type_options.keys()}
     saved_models = {}
     X, y, data_processing, response_feature = initialize_data()
-
     for model_type_selected in model_type_options.keys():
+        print(f"Training default model for {model_type_selected}...")
         # Run training for the selected model type
         model_given_n_features = train_regression_over_range(
             X, y, data_processing, model_type_options[model_type_selected]
